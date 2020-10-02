@@ -14,7 +14,8 @@
   "author": "Francisco Ponce",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.29.0"
+    "moment": "^2.29.0",
+    "webpack": "^4.44.2"
   },
   "devDependencies": {
     "date-fns": "^2.16.1"
