@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Curso/Taller SPA</title>
   </head>
+
   <body>
     <header>
       <ul>
         <li><button onclick="router.loadRoute('')">Home</button></li>
-        <li><button onclick="router.loadRoute('/contacto')">Contact</button></li>
-        <li><button onclick="router.loadRoute('/about')">About me</button></li>
+        <li><button onclick="router.loadRoute('contact')">Contacto</button></li>
+        <li><button onclick="router.loadRoute('about')">Acerca de mi</button></li>
       </ul>
-
-      <div data-router></div>
     </header>
+    <div data-router>
+      <!-- Builder -->
+    </div>
+    <script src="router.js"></script>
+    <script src="routes.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
